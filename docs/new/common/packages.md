@@ -27,7 +27,8 @@ substreams gui \
  https://spkg.io/streamingfast/erc20-balance-changes-v1.1.0.spkg \
  map_balance_changes \
  -e mainnet.eth.streamingfast.io:443 \
- --start-block 1397553
+ --start-block 1397553 \
+ --network eth
 ```
 
 ### Creating a Package
