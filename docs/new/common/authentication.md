@@ -58,7 +58,7 @@ To ensure that your authentication is set up correctly, you can run a test Subst
 
    ```bash
    substreams gui \
-     https://spkg.io/streamingfast/erc20-balance-changes-v1.2.0.spkg \
+     erc20-balance-changes@latest \
      map_valid_balance_changes \
      -e mainnet.eth.streamingfast.io:443 \
      --start-block 10397553 \
