@@ -1,3 +1,6 @@
+Tutorial on MANTRA
+=================
+
 In this guide, you'll learn how to initialize a MANTRA-based Substreams project within the Dev Container.
 
 ## Step 1: Initialize Your MANTRA Substreams Project
