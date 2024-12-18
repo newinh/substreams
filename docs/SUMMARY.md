@@ -12,11 +12,11 @@
   * [on Cosmos](new/tutorials/cosmos-compatible)
     * [Injective](new/tutorials/cosmos-compatible/injective.md)
     * [Mantra](new/tutorials/cosmos-compatible/mantra.md)
-* [Publish a Substreams Package](new/tutorials/publish-package.md)
+* [Publishing a Substreams Package](new/tutorials/publish-package.md)
 
 ## How-To Guides
 
-* [Develop a Substreams](new/how-to-guides/develop-your-own-substreams/develop-your-own-substreams.md)
+* [Developing Substreams](new/how-to-guides/develop-your-own-substreams/develop-your-own-substreams.md)
   * [on EVM](new/how-to-guides/develop-your-own-substreams/evm)
     * [Exploring Ethereum](new/how-to-guides/develop-your-own-substreams/evm/exploring-ethereum/exploring-ethereum.md)
       * [Mapping Blocks](new/how-to-guides/evm/exploring-ethereum/map\_block\_meta\_module.md)
