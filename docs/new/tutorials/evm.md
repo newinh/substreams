@@ -1,6 +1,5 @@
----
-title: Tutorial on EVM
----
+Tutorial on EVM
+=================
 
 In this guide, you'll learn how to initialize an EVM-based Substreams project within the Dev Container.
 
