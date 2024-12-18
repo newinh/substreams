@@ -34,7 +34,7 @@
       * [Simple Substreams Example](new/how-to-guides/develop-your-own-substreams/cosmos/injective/block-stats.md)
       * [Foundational Modules](new/how-to-guides/develop-your-own-substreams/cosmos/injective/foundational.md)
       * [Dojo DEX USDT Volume Subgraph Example](new/how-to-guides/develop-your-own-substreams/cosmos/injective/usdt-exchanges.md)
-* [Use a Substreams Sink](new/how-to-guides/sinks/sinks.md)
+* [Using a Substreams Sink](new/how-to-guides/sinks/sinks.md)
   * [Substreams:SQL](new/how-to-guides/sinks/sql/sql-sink.md)
     <!--* [Deployable Services](new/how-to-guides/sinks/sql/deployable-services/)
       * [Remote Service](new/how-to-guides/sinks/sql/deployable-services/remote-service.md)
