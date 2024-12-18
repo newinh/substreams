@@ -1,6 +1,3 @@
-Tutorial on EVM
-=================
-
 ---
 title: Getting Started on EVM
 ---
