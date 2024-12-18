@@ -1,3 +1,6 @@
+Tutorial on Solana
+===================
+
 In this guide, you'll learn how to initialize a Solana-based Substreams project within the Dev Container.
 
 ## Step 1: Initialize Your Solana Substreams Project
