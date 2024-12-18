@@ -12,6 +12,7 @@
   * [on Cosmos](new/tutorials/cosmos-compatible)
     * [Injective](new/tutorials/cosmos-compatible/injective.md)
     * [Mantra](new/tutorials/cosmos-compatible/mantra.md)
+* [Publish a Substreams Package](new/tutorials/publish-package.md)
 
 ## How-To Guides
 
