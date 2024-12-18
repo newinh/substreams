@@ -1,3 +1,6 @@
+Tutorial on Injective
+=================
+
 In this guide, you'll learn how to initialize a Injective-based Substreams project within the Dev Container.
 
 ## Prerequisites
