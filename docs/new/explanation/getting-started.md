@@ -10,6 +10,7 @@ Once you find a package that fits your needs, you can choose how you want to con
 - **[SQL Database](../how-to-guides/sinks/sql/sql-sink.md)**: Send the data to a database.
 - **[Subgraph](../how-to-guides/sinks/subgraph/subgraph.md)**: Configure an API to meet your data needs and host it on The Graph Network.
 - **[Direct Streaming](../how-to-guides/sinks/stream/stream.md)**: Stream data directly to your application.
+- **[PubSub](../how-to-guides/sinks/pubsub.md)**: Send data to a PubSub topic.
 
 <figure><img src=".gitbook/assets/intro/consume-flow.png" width="100%" /></figure>
 
