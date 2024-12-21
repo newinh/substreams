@@ -13,7 +13,7 @@ git clone https://github.com/streamingfast/substreams-explorers
 
 ### The Substreams CLI
 
-The Substreams CLI allows you to run, package, and visualize your Substreams. Make sure you have the CLI installed by following this [simple tutorial](../../../common/installing-the-cli.md).
+The Substreams CLI allows you to run, package, and visualize your Substreams. Make sure you have the CLI installed by following the [Install Substreams CLI](../../../references/cli/installing-the-cli.md) instructions or use our [Dev Container](../../../references/devcontainer-ref.md) to setup your environment.
 
 ### Substreams Basics
 
