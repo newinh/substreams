@@ -20,8 +20,9 @@ You can use our published Substreams CLI Docker image an assign an alias to Dock
 alias substreams='docker run --rm -it -e="SF_API_TOKEN=$SF_API_TOKEN" ghcr.io/streamingfast/substreams'
 ```
 
-> [!NOTE]
-> Expansion of `$SF_API_TOKEN` above happens at command runtime, so you must ensure that it is set correctly in your own host environment.
+{% hint style="note" %}
+**Note**: Expansion of `$SF_API_TOKEN` above happens at command runtime, so you must ensure that it is set correctly in your own host environment.
+{% endhint %}
 
 ### Pre-compiled binary installation
 
