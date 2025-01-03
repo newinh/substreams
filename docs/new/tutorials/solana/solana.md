@@ -3,6 +3,10 @@ Tutorial on Solana
 
 In this guide, you'll learn how to initialize a Solana-based Substreams project within the Dev Container.
 
+{% hint style="info" %} 
+ If you prefer to begin locally within your terminal rather than through the Dev Container (VS Code required), refer to the [Substreams CLI installation guide](../references/cli/installing-the-cli.md).
+{% endhint %}
+
 ## Step 1: Initialize Your Solana Substreams Project
 
 1. Open the [Dev Container](https://github.com/streamingfast/substreams-starter) and follow the on-screen steps to initialize your project.
