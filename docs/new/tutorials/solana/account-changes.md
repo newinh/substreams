@@ -10,7 +10,7 @@ By the end of this tutorial, you will have a working Substreams feed that allows
  History for the Solana Account Changes dates as of 2025, block 310629601. 
 {% endhint %}
 
-For each Solana Account block, only the latest update per account is recorded. If an account is deleted, a payload with `deleted == True` is provided. Additionally, events of low importance we're omitted, such as those with the special owner “Vote11111111…” account or changes that do not affect the account data (ex: lamport changes).
+For each Solana Account block, only the latest update per account is recorded, see the [Protobuf Referece](https://buf.build/streamingfast/firehose-solana/file/main:sf/solana/type/v1/account.proto). If an account is deleted, a payload with `deleted == True` is provided. Additionally, events of low importance we're omitted, such as those with the special owner “Vote11111111…” account or changes that do not affect the account data (ex: lamport changes).
 
 ## Prerequisites
 
@@ -41,7 +41,7 @@ This tutorial will continue to guide you through filtering, sinking the data, an
 
 ## Step 2: Sink the Substreams
 
-Consume the account stream [directly in your applicaion](../how-to-guides/sinks/stream/stream.md) using a callback or make it queryable by using the [SQL-DB sink](../../how-to-guides/sinks/sql/sql-sink.md).
+Consume the account stream [directly in your applicaion](../../how-to-guides/sinks/stream/stream.md) using a callback or make it queryable by using the [SQL-DB sink](../../how-to-guides/sinks/sql/sql-sink.md).
 
 ## Step 3: Setting up a Reconnection Policy
 
