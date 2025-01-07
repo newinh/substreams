@@ -710,7 +710,9 @@ func GetExecutionPlan(
 				if err != nil {
 					return nil, fmt.Errorf("checking partial file existence: %w", err)
 				}
-				if !partialStoreExists {
+				// when running last stage, we want to make sure that we write all the fullKV stores.
+				// in other scenarios, a partial store is enough so we won't produce it again if it's not needed.
+				if !partialStoreExists || runningLastStage {
 					storesToWrite[name] = struct{}{}
 					requiredModules[name] = usedModules[name]
 				}
