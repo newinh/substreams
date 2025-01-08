@@ -691,11 +691,6 @@ func GetExecutionPlan(
 			}
 			existingExecOuts[name] = file
 
-			if runningLastStage && name == outputModule {
-				logger.Info("found existing exec output for output_module, skipping run", zap.String("output_module", name))
-				return nil, nil
-			}
-
 		case pbsubstreams.ModuleKindStore:
 			file, readErr := c.ReadFile(ctx, &block.Range{StartBlock: moduleStartBlock, ExclusiveEndBlock: stopBlock})
 			if readErr != nil {
@@ -715,7 +710,9 @@ func GetExecutionPlan(
 				if err != nil {
 					return nil, fmt.Errorf("checking partial file existence: %w", err)
 				}
-				if !partialStoreExists {
+				// when running last stage, we want to make sure that we write all the fullKV stores.
+				// in other scenarios, a partial store is enough so we won't produce it again if it's not needed.
+				if !partialStoreExists || runningLastStage {
 					storesToWrite[name] = struct{}{}
 					requiredModules[name] = usedModules[name]
 				}
@@ -723,6 +720,11 @@ func GetExecutionPlan(
 
 		}
 
+	}
+
+	if runningLastStage && len(storesToWrite) == 0 && existingExecOuts[outputModule] != nil {
+		logger.Info("found existing exec output for output_module and no stores to produce, skipping run", zap.String("output_module", outputModule))
+		return nil, nil
 	}
 
 	for name, module := range requiredModules {

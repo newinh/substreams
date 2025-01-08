@@ -35,7 +35,6 @@ Protobuf definitions and public endpoints are provided for the supported protoco
 | Bitcoin  | [`sf.bitcoin.type.v1.Block`](https://github.com/streamingfast/firehose-bitcoin/blob/develop/proto/sf/bitcoin/type/v1/type.proto)              |                                                                                                                       |
 | Antelope  | [`sf.antelope.type.v1.Block`](https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1#sf.antelope.type.v1.Block)              |                                                                                                                       |
 | Starknet  | [`sf.starknet.type.v1.Block`](https://github.com/streamingfast/firehose-starknet/blob/main/proto/sf/starknet/type/v1/block.proto#L8)              |                                                                                                                       |
-| Vara  | [`sf.gear.type.v1.Block`](https://github.com/streamingfast/firehose-gear/blob/main/proto/sf/gear/type/v1/block.proto#L7)              |                                                                                                                       |
 
 ### EVM Extended vs Base Block Model
 
@@ -65,15 +64,13 @@ The data missing in the Base Block makes the corresponding Protobuf field empty.
 * **NEAR Mainnet**: `mainnet.near.streamingfast.io:443`
 * **NEAR Testnet**: `testnet.near.streamingfast.io:443`
 * **Solana Mainnet-Beta**: `mainnet.sol.streamingfast.io:443`
-* **Solana Devnet**: `devnet.sol.streamingfast:443`
+* **Solana Devnet**: `devnet.sol.streamingfast.io:443`
 * **Bitcoin Mainnet**: `mainnet.btc.streamingfast.io:443`
 * **Injective Mainnet**: `mainnet.injective.streamingfast.io:443`
 * **Injective Testnet**: `testnet.injective.streamingfast.io:443`
 * **Sei Mainnet (EVM)**: `evm-mainnet.sei.streamingfast.io:443`
 * **Starknet Mainnet**: `mainnet.starknet.streamingfast.io:443`
 * **Base Mainnet**: `base-mainnet.streamingfast.io:443`
-* **Vara Mainnet**: `mainnet.vara.streamingfast.io:443`
-* **Vara Testnet**: `testnet.vara.streamingfast.io:443`
 * **Mantra Mainnet**: `mainnet.mantra.streamingfast.io:443`
 * **Mantra Testnet**: `testnet.mantra.streamingfast.io:443`
 
